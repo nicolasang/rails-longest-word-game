@@ -1,0 +1,42 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  font-family: "Arial";
+  margin-left: 20px;
+}
+
+.characters-content {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.characters-content > p {
+  border: 2px solid green;
+  color: white;
+  background: blue;
+  width: 10px;
+  padding: 30px;
+}
+
+.my-form {
+  width: 500px;
+  height: 40px;
+}
+
+.btn-treehouse {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
